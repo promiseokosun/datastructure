@@ -168,8 +168,7 @@ class SinglyLinkedList<T> {
         int initialSize = size();
         checkEmpty(current);
         checkIndexBound(index);
-        head = null;
-        size = 0;
+        clear();
 
         for (int i = 0; i < initialSize; i++) {
             if (i == index) {
@@ -186,8 +185,7 @@ class SinglyLinkedList<T> {
         Node<T> current = head;
         int initialSize = size();
         checkEmpty(current);
-        head = null;
-        size = 0;
+        clear();
 
         for (int i = 0; i < initialSize; i++) {
 
@@ -206,8 +204,7 @@ class SinglyLinkedList<T> {
         Node<T> current = head;
         int initialSize = size();
         checkEmpty(current);
-        head = null;
-        size = 0;
+        clear();
 
         for (int i = 0; i < initialSize; i++) {
 
@@ -225,8 +222,7 @@ class SinglyLinkedList<T> {
         Node<T> current = head;
         int initialSize = size();
         checkEmpty(current);
-        head = null;
-        size = 0;
+        clear();
 
         for (int i = 0; i < initialSize; i++) {
 
